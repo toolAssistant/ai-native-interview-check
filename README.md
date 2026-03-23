@@ -1,20 +1,17 @@
 # AI-Native Interview Check
 
-候选人视角的 AI-Native 面试自查工具。单文件 HTML，零依赖，浏览器直接打开即用。  
-**[在线访问 →](https://toolAssistant.github.io/ai-native-interview-check/)**  
-**[GitHub 仓库 →](https://github.com/toolAssistant/ai-native-interview-check)**
+这是一个给候选人自己使用的 AI-Native 面试自查页。它源自原始仓库 [vorojar/ai-native-hiring-guide](https://github.com/vorojar/ai-native-hiring-guide)，原本是一份给面试官使用的 **《AI-Native 工程师招聘面试官手册》**；现在则被翻转成了候选者视角的训练工具。你先像候选人一样作答，再像面试官一样对照 rubric，最后看看自己更偏 `Builder` 还是 `Reviewer`，短板到底暴露在哪。  
+**[在线体验 →](https://toolAssistant.github.io/ai-native-interview-check/)**  
+**[当前仓库 →](https://github.com/toolAssistant/ai-native-interview-check)**  
 
 ---
 
-这是一个给候选人自己使用的 AI-Native 面试训练页。
+## 它和原版有什么不同
 
-它源自一份“AI-Native 工程师招聘面试官手册”，但现在的产品目标已经变了：  
-不是帮面试官打分，而是帮候选人自查自己的表达方式、判断方式和 AI 协作方式。
+- 原版更像面试官的工作台：提问、观察、打分、做录用判断
+- 当前版更像候选人的训练场：逐题作答、自评、复盘、发现短板
 
-## 项目定位
-
-它不是面试官打分表，也不是标准答案合集，而是一套给候选人自己使用的训练流程：
-
+它不是面试官打分表，也不是标准答案合集，而是一套把面试流程翻过来给候选人自己使用的练习工具：
 - 先独立作答，暴露真实表达和判断习惯
 - 再展开 rubric，对照评分标准看差距
 - 最后自己打分，并查看岗位倾向和能力短板
@@ -57,28 +54,12 @@ open index.html
 npx serve .
 ```
 
-## GitHub Pages 部署
-
-仓库已经带上 GitHub Pages 工作流：推送到 `main` 后，会自动把根目录里的 `index.html` 打包到 `_site/` 并发布。
-
-首次启用时还需要在仓库里做一次设置：
-
-1. 打开仓库 `Settings`
-2. 进入 `Pages`
-3. 在 `Build and deployment` 里把 `Source` 设为 `GitHub Actions`
-
-完成后，后续每次推送 `main` 都会自动更新线上页面。
-
 ## 文件说明
 
 - `index.html`：完整应用，包含样式、题库和交互逻辑
 - `candidate-self-check-design.md`：这次重构的设计稿
 - `test/index.test.mjs`：零依赖结构测试
 - `test/github-pages.test.mjs`：GitHub Pages 发布配置测试
-
-## 关于
-
-[易哈佛医疗](https://www.ehafo.com) 内部工具演化版本，开源供同行参考。
 
 ---
 
