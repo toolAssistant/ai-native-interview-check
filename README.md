@@ -1,8 +1,13 @@
 # AI-Native Interview Check
 
-这是一个给候选人自己使用的 AI-Native 面试自查页。它源自原始仓库 [vorojar/ai-native-hiring-guide](https://github.com/vorojar/ai-native-hiring-guide)，原本是一份给面试官使用的 **《AI-Native 工程师招聘面试官手册》**；现在则被翻转成了候选者视角的训练工具。你先像候选人一样作答，再像面试官一样对照 rubric，最后看看自己更偏 `Builder` 还是 `Reviewer`，短板到底暴露在哪。  
-**[在线体验 →](https://toolAssistant.github.io/ai-native-interview-check/)**  
-**[当前仓库 →](https://github.com/toolAssistant/ai-native-interview-check)**  
+这是根据另一个开源项目 [vorojar/ai-native-hiring-guide](https://github.com/vorojar/ai-native-hiring-guide) **《AI-Native 工程师招聘面试官手册》**， 翻转视角，改成了 候选人 自己使用的 AI-Native 面试自查页。
+
+《AI-Native 工程师招聘面试官手册》把 AI-Native 工程师 分为： `Builder` 和 `Reviewer` 和 双栖
+<img width="863" height="475" alt="image" src="https://github.com/user-attachments/assets/f97872ff-9a0c-4ad2-923a-194ae83e622a" />
+
+你先像候选人一样作答，再像面试官一样对照 rubric，最后看看自己更偏 `Builder` 还是 `Reviewer`，短板到底暴露在哪。  
+
+**[在线体验 →](https://toolAssistant.github.io/ai-native-interview-check/)**  单文件 HTML，零依赖，浏览器直接打开即用。
 
 ---
 
